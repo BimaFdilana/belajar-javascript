@@ -61,4 +61,15 @@ const kuppon = 10000;
 const total = (apple * customersApple) + (pisang * customersPisang) - kuppon;
 console.log(total)
 
+// Latihan 2
+const applePrice = 5000;
+const pisangPrice = 10000;
+const totalApple = 3;
+const totalPisang = 2;
+// discount = 10%
+const discount = 0.1
+const originalPrice = applePrice * totalApple + pisangPrice * totalPisang;
+const price = originalPrice - originalPrice * discount;
+console.log(price)
+
 
